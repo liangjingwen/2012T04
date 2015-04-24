@@ -1,4 +1,4 @@
-package license;
+package Main;
 
 public class license {
 	private int InitialLicenseNum =0;
@@ -6,6 +6,10 @@ public class license {
 	public void ChangeInitialNum(int num)
 	{
 		InitialLicenseNum=num;
+	}
+	public int getInitialNum()
+	{
+		return InitialLicenseNum;
 	}
 	public boolean JudgeServiceRequest()
 	{
