@@ -18,7 +18,6 @@ public class FM {
 			File file = new File(this.strFileName);
 			if(!file.exists())
 				file.createNewFile();
-				
 			FileOutputStream out = new FileOutputStream(file,true);
 			StringBuffer sb = new StringBuffer();
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
